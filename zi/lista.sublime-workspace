@@ -1,0 +1,509 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"input",
+				"inputDurata"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"set",
+				"setAttribute"
+			],
+			[
+				"touc",
+				"touchHandler"
+			],
+			[
+				"getEleme",
+				"getElementsByClassName"
+			],
+			[
+				"adau",
+				"adaugaSapte"
+			],
+			[
+				"ziua",
+				"ziuaRo"
+			],
+			[
+				"id",
+				"iDate"
+			],
+			[
+				"data",
+				"data_loc"
+			],
+			[
+				"ge",
+				"getDay"
+			],
+			[
+				"ad",
+				"adaugaSapte"
+			],
+			[
+				"s",
+				"squares"
+			],
+			[
+				"da",
+				"dataVineri"
+			],
+			[
+				"getDa",
+				"getDay"
+			],
+			[
+				"zi",
+				"zi"
+			],
+			[
+				"luna",
+				"luna"
+			],
+			[
+				"toate",
+				"toateLunile"
+			],
+			[
+				"pr",
+				"prima_zi_sapt"
+			],
+			[
+				"l",
+				"luna_curenta"
+			],
+			[
+				"fir",
+				"first_week_day"
+			],
+			[
+				"wee",
+				"week_day"
+			],
+			[
+				"inner",
+				"innerHTML"
+			],
+			[
+				"cale",
+				"calendar_html"
+			],
+			[
+				"pus",
+				"push"
+			],
+			[
+				"tot",
+				"totOreZi"
+			],
+			[
+				"dura",
+				"durata_programare"
+			],
+			[
+				"du",
+				"durata_programare"
+			],
+			[
+				"ma",
+				"mainArray"
+			],
+			[
+				"main",
+				"mainArray"
+			],
+			[
+				"mai",
+				"mainArray"
+			],
+			[
+				"luni",
+				"luniP"
+			],
+			[
+				"se",
+				"second"
+			],
+			[
+				"joi",
+				"joiP"
+			],
+			[
+				"mier",
+				"miercuriP"
+			],
+			[
+				"lu",
+				"luniP"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"div",
+				"divOne"
+			],
+			[
+				"child",
+				"children"
+			],
+			[
+				"durata",
+				"durataP"
+			],
+			[
+				"ora",
+				"ora_programare"
+			],
+			[
+				"ore",
+				"ora_programare"
+			],
+			[
+				"programari",
+				"programariTest"
+			],
+			[
+				"pre",
+				"programariTest"
+			],
+			[
+				"adauga",
+				"adaugaProgramari"
+			],
+			[
+				"pro",
+				"programariTest"
+			],
+			[
+				"nu",
+				"nume"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"sele",
+				"selectEl"
+			],
+			[
+				"va",
+				"valoare"
+			],
+			[
+				"create",
+				"createTimeSelect"
+			],
+			[
+				"select",
+				"selectEl"
+			],
+			[
+				"cre",
+				"createTimeSelect"
+			],
+			[
+				"appe",
+				"appendChild"
+			],
+			[
+				"orar",
+				"orarTest"
+			],
+			[
+				"pacient",
+				"pacientText"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"a",
+				"appendChild"
+			],
+			[
+				"bind",
+				"bindEVENTS"
+			],
+			[
+				"value-",
+				"value-name"
+			],
+			[
+				"value",
+				"value"
+			],
+			[
+				"bi",
+				"bindEVENTS"
+			],
+			[
+				"cl",
+				"className"
+			],
+			[
+				"creae",
+				"createTableEkement"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"header",
+				"headerClass"
+			],
+			[
+				"prog",
+				"progTest"
+			],
+			[
+				"des",
+				"desfasurator"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"or",
+				"orarTest"
+			],
+			[
+				"block",
+				"block"
+			],
+			[
+				"ta",
+				"table-column"
+			],
+			[
+				"date",
+				"date_time"
+			],
+			[
+				"colo",
+				"background-color"
+			],
+			[
+				"text-a",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/theBackUp/proiecteNoi/zi/css/movingSquares.css",
+		"/E/theBackUp/proiecteNoi/zi/js/main.js",
+		"/E/theBackUp/proiecteNoi/zi/astraIndex.html",
+		"/E/theBackUp/proiecteNoi/modularDentAst/index.js",
+		"/E/theBackUp/proiecteVechi/id/ids.js"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"binde",
+			"orarTest",
+			"console.log",
+			"patratel",
+			"patratel2",
+			"patratel",
+			"adaugaClienti",
+			"sevenSquares",
+			"data_loc",
+			"squares",
+			"];\n",
+			"sevenSquares",
+			"mainArray",
+			"io",
+			"i",
+			"++)",
+			"programariTest",
+			"createTableElement",
+			"appendProgram",
+			"createSelector",
+			"createTimeSelect",
+			"createTableElement",
+			"value",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "lista.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
