@@ -25,7 +25,7 @@
 	 luniP : [
 
     {ora_programare: "9:00",durata_programare: "2",nume_programare: "Eu",id_client:"00001"}, 
-    {ora_programare: "13:00",durata_programare: "2",nume_programare: "Tu",id_client:"00004"},
+    {ora_programare: "13:00",durata_programare: "1",nume_programare: "Tu",id_client:"00004"},
     {ora_programare: "15:00",durata_programare: "3",nume_programare: "El",id_client:"00007"}
 ],
 	 martiP : [
@@ -37,7 +37,7 @@
 	miercuriP : [
 
     {ora_programare: "9:00",durata_programare: "3",nume_programare: "Eu",id_client:"00001"}, 
-    {ora_programare: "13:00",durata_programare: "2",nume_programare: "Tu",id_client:"00004"},
+    {ora_programare: "13:00",durata_programare: "3",nume_programare: "Tu",id_client:"00004"},
     {ora_programare: "15:00",durata_programare: "2",nume_programare: "El",id_client:"00007"}
 ],
 	joiP : [],
@@ -109,9 +109,9 @@
 		var ziuaRo = 0; //cum e la englezi cu 7 duminica 
 			//console.log(squares);
 			
-	    			 console.log('functia calendar cu thisul:'+this + "startDate e : " + startDate);
-	    			 console.log('functia calendar cu thisul:'+this + "endDate e : " + endDate);
-	    			 console.log('functia calendar cu thisul:'+this +""+ "iDate e : " + iDate);
+	    			 // console.log('functia calendar cu thisul:'+this + "startDate e : " + startDate);
+	    			 // console.log('functia calendar cu thisul:'+this + "endDate e : " + endDate);
+	    			 // console.log('functia calendar cu thisul:'+this +""+ "iDate e : " + iDate);
 
 			while(week < 7) 
 				{
@@ -135,7 +135,7 @@
 
 					//console.log(adaugaSapte); ==>0
 					ziuaRo = iDate.getDay()-1 + adaugaSapte;
-					console.log(ziuaRo); //===>7
+					//console.log(ziuaRo); //===>7
 					//console.log(iDate.getDay()); ==> 2 3 4 5 6 /  0 1  2 3 4 5 6 / 0  
 					if(iDate.getDay() == 0) //cee ce e 
 						{
@@ -209,9 +209,42 @@
         	var totalore = this.calculeazaOreOcupate(i);     //////// $$$$$$$$  K dat ca param mai jos e luat drept arg (i)pt a putea ITERA
         	var oreOcupate= totalore;
         	var rezultat = this.totOreZi[i].length - oreOcupate; 
-    	 	
+    	 	console.log(this.totOreZi[i].length);
     	 	toateZilele[i].innerHTML = rezultat;
- 			 
+ 			if(rezultat == 3)
+ 			{
+ 				//toateZilele[i].style.background = 'green';
+ 				toateZilele[i].className+= ' un_sfert';
+ 			}
+ 			if(rezultat == 2)
+ 				{
+ 					toateZilele[i].className+= ' doua_sferturi';
+ 				}
+ 			if(rezultat == 1)
+ 					{
+ 						toateZilele[i].className+= ' trei_sferturi';
+ 					};	 
+ 			if(rezultat == 4)
+ 					{
+ 						toateZilele[i].className+= ' patru_sferturi';
+ 					};	 
+ 			if(rezultat == 5)
+ 					{
+ 						toateZilele[i].className+= ' cinci_sferturi';
+ 					};	 
+ 			if(rezultat == 6)
+ 					{
+ 						toateZilele[i].className+= ' sase_sferturi';
+ 					};	 
+ 			if(rezultat == 7)
+ 					{
+ 						toateZilele[i].className+= ' sapte_sferturi';
+ 					};	 
+ 			if(rezultat == 8)
+ 					{
+ 						toateZilele[i].className+= ' opt_sferturi';
+ 					};	 
+ 						 
     	};
 		
     	
@@ -221,6 +254,7 @@
     calculeazaOreOcupate: function(k){  //
     	var suma=0;
     	var arr = this.mainArray[k];
+    	this.toate_patrate = document.getElementsByClassName('second');
     	//console.log(this.mainArray);
     	if (arr==null) return suma;//if ul asta a fost creat deoarece !!console.log(k)!! arata ca parcurge doar pana la 7 si dupa e null
     							   //cand de fapt ar trebui sa l parcurga pe toti =14 () uitate dupa$$$$$$$mai sus
@@ -230,11 +264,13 @@
     	{
 
     		suma += parseInt(arr[j].durata_programare);// UNDE ARR[THIS>MAINARRAY pe rand ]
+    		
     		//console.log(this.mainArray[0][0].ora_programare.__proto__);
     		//arr[j].durata_programare cauta pe rand in toate programarile(mainArray)
     												   //ce gaseste e un string care TREBUIE PT FIECARE durata_pro TRANSFORMAT IN integer 
     	//console.log(suma);
     	};
+    	
     	return suma;
     },
 
@@ -306,7 +342,7 @@
 	mai_pune_inca_2_sapt: function()
 	{
 		var buton_plus_2_sapt = document.getElementById('butonul_schimba_luna');
-		console.log(buton_plus_2_sapt);
+		//console.log(buton_plus_2_sapt);
 		buton_plus_2_sapt.addEventListener('click', this.allSquares.bind(this) , false);
 	},
 

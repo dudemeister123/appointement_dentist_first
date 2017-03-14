@@ -42,3 +42,47 @@
     margin-left: 8px;
     padding-top: 45px;
 }
+/*umple patratele in functie de cate ore sunt ocupate */
+.un_sfert
+{
+    background: -webkit-linear-gradient(top, #ffcccc 70%,#bef0ff 70%);
+    background:         linear-gradient(to bottom, #ffcccc 70%,#bef0ff 70%);
+}
+   
+.doua_sferturi
+{
+    background: -webkit-linear-gradient(top, #ffcccc 80%,#bef0ff 80%);
+    background:         linear-gradient(to bottom, #ffcccc 80%,#bef0ff 80%);
+}
+.trei_sferturi
+{
+    background: -webkit-linear-gradient(top, #ffcccc 90%,#bef0ff 90%);
+    background:         linear-gradient(to bottom, #ffcccc 90%,#bef0ff 90%);
+}
+.patru_sferturi
+{
+    background: -webkit-linear-gradient(top, #ffcccc 60%,#bef0ff 60%);
+    background:         linear-gradient(to bottom, #ffcccc 60%,#bef0ff 60%);
+}
+.cinci_sferturi
+{
+    background: -webkit-linear-gradient(top, #ffcccc 50%,#bef0ff 50%);
+    background:         linear-gradient(to bottom, #ffcccc 50%,#bef0ff 50%);
+}
+.sase_sferturi
+{
+    background: -webkit-linear-gradient(top, #ffcccc 40%,#bef0ff 40%);
+    background:         linear-gradient(to bottom, #ffcccc 40%,#bef0ff 40%);
+}
+.sapte_sferturi
+{
+    background: -webkit-linear-gradient(top, #ffcccc 30%,#bef0ff 30%);
+    background:         linear-gradient(to bottom, #ffcccc 30%,#bef0ff 30%);
+}
+    
+.opt_sferturi
+{
+    background: -webkit-linear-gradient(top, #ffcccc 20%,#bef0ff 20%);
+    background:         linear-gradient(to bottom, #ffcccc 20%,#bef0ff 20%);
+}
+       /*ppppppppppppppppppppppppppppppppppaaaaaaaaaaaaaaaaaaaaaaaaaaaaaannnnnnnnnnnnna aici */
